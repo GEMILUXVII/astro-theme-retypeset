@@ -1,6 +1,7 @@
 ---
-import { ClientRouter } from 'astro:transitions'
 import Analytics from '@vercel/analytics/astro'
+import SpeedInsights from '@vercel/speed-insights/astro'
+import { ClientRouter } from 'astro:transitions'
 import katexCSS from 'katex/dist/katex.min.css?url'
 import { allLocales, base, defaultLocale, themeConfig } from '@/config'
 import { ui } from '@/i18n/ui'
@@ -96,6 +97,9 @@ const pageImage = postSlug
 
 <!-- Vercel Web Analytics -->
 <Analytics />
+
+<!-- Vercel Speed Insights -->
+<SpeedInsights />
 
 <!-- Theme Toggle -->
 <script
