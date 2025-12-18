@@ -8,10 +8,11 @@ type DateFormat = ThemeConfig['global']['dateFormat']
 interface Props {
   date: Date
   updatedDate?: Date
+  displayDate?: string
   minutes: number
 }
 
-const { date, updatedDate, minutes } = Astro.props
+const { date, updatedDate, displayDate, minutes } = Astro.props
 const { dateFormat: format } = themeConfig.global
 const isPost = isPostPage(Astro.url.pathname)
 const timeSpacingClass = isPost ? 'ml-1.75' : 'ml-1.5'
@@ -59,9 +60,13 @@ function formatDate(date: Date, format: DateFormat) {
 }
 ---
 
+const publishedText = displayDate || formatDate(date, format)
+const datetimeAttr = date.toISOString().split('T')[0]
+---
+
 <!-- published date -->
-<time datetime={date.toISOString().split('T')[0]}>
-  {formatDate(date, format)}
+<time datetime={datetimeAttr}>
+  {publishedText}
 </time>
 
 <!-- updated date -->

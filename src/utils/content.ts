@@ -4,6 +4,7 @@ import type { Post } from '@/types'
 import { getCollection, render } from 'astro:content'
 import { defaultLocale } from '@/config'
 import { memoize } from '@/utils/cache'
+import { parsePublishedInput } from '@/utils/date'
 
 const metaCache = new Map<string, { minutes: number }>()
 
@@ -87,7 +88,20 @@ async function _getPosts(lang?: Language) {
     },
   )
 
-  const enhancedPosts = await Promise.all(filteredPosts.map(addMetaToPost))
+  const enhancedPosts = await Promise.all(filteredPosts.map(async (post) => {
+    const { date, display } = parsePublishedInput(post.data.published)
+
+    const normalizedPost: CollectionEntry<'posts'> = {
+      ...post,
+      data: {
+        ...post.data,
+        published: date,
+        publishedDisplay: display,
+      },
+    }
+
+    return addMetaToPost(normalizedPost)
+  }))
 
   return enhancedPosts.sort((a, b) =>
     b.data.published.valueOf() - a.data.published.valueOf(),

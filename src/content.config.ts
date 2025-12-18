@@ -1,13 +1,17 @@
 import { glob } from 'astro/loaders'
 import { defineCollection, z } from 'astro:content'
 import { allLocales, themeConfig } from '@/config'
+import { parsePublishedInput } from '@/utils/date'
 
 const posts = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/posts' }),
   schema: z.object({
     // required
     title: z.string(),
-    published: z.date(),
+    published: z.preprocess(
+      val => parsePublishedInput(val).date,
+      z.date(),
+    ),
     // optional
     description: z.string().optional().default(''),
     updated: z.preprocess(

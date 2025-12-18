@@ -1,0 +1,153 @@
+---
+import type { Props } from 'astro'
+
+// 获取项目及环境信息
+import { version as astroVersion } from 'astro/package.json'
+
+const nodeVersion = process.version
+
+const platform = 'Vercel' in process.env ? 'Vercel' : 'Unknown'
+
+const buildTime = new Date().toLocaleString('zh-CN', {
+  timeZone: 'Asia/Shanghai',
+  hour12: false,
+})
+
+// 定义 ASCII Logo
+const logoLines = [
+  '              ----------               ',
+  '              %%%%%%%%%%%%              ',
+  '             %%%%%%%%%%%%%%             ',
+  '            %%%%%%%%%%%%%%%%            ',
+  '           %%%%%%%%%%%%%%%%%%           ',
+  '          %%%%%%%%%%%%%%%%%%%%          ',
+  '         %%%%%%%%%%  %%%%%%%%%%         ',
+  '        %%%%%%%%%%    %%%%%%%%%%        ',
+  '       %%%%%%%%%%%     %%%%%%%%%%       ',
+  '      %%%%%%%%%%%      %%%%%%%%%%%      ',
+  '     %%%%%%%%%%%        %%%%%%%%%%%     ',
+  '     %%%%                      %%%%     ',
+  '             %%%        %%%             ',
+  '             %%%%%%%%%%%%%%%             ',
+  '            %%%%%%%%%%%%%%%%            ',
+  '              %   %%%%%%%              ',
+  '                   %%%%              ',
+  '                   %%%              ',
+]
+
+// 配置显示的信息字段
+const infoMap = [
+  { key: 'admin@aspchang.cn', val: '', isTitle: true }, // 修改：更新为你的域名
+  { key: '-------------------', val: '', isSeparator: true },
+  { key: 'Framework', val: `Astro v${astroVersion}` },
+  { key: 'Theme', val: 'Multiterm Astro' },
+  { key: 'Node', val: nodeVersion },
+  { key: 'System', val: 'Linux (x64)' },
+  { key: 'Package Manager', val: 'pnpm' },
+  { key: 'Platform', val: platform },
+  { key: 'Build Time', val: buildTime },
+  { key: 'Locale', val: 'zh-CN' },
+]
+
+// 生成行号数组
+const lineNumbers = Array.from({ length: 21 }, (_, i) => i + 1)
+---
+
+<div
+  class="mx-auto my-8 max-w-3xl w-full overflow-hidden border border-[#333] rounded-lg bg-[#1e1e1e] text-sm leading-relaxed font-mono shadow-2xl"
+>
+  <!-- 顶部标题栏 -->
+  <div class="relative flex items-center bg-[#2d2d2d] px-4 py-2">
+    <div class="absolute left-4 flex gap-2">
+      <div class="h-3 w-3 rounded-full bg-[#ff5f56]"></div>
+      <div class="h-3 w-3 rounded-full bg-[#ffbd2e]"></div>
+      <div class="h-3 w-3 rounded-full bg-[#27c93f]"></div>
+    </div>
+    <div class="w-full text-center text-xs text-[#999] font-sans">
+      <!-- 修改：窗口标题 -->
+      admin@aspchang.cn: ~
+    </div>
+    <!-- 复制按钮图标占位 -->
+    <div class="absolute right-4 text-[#777]">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path
+        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                                                                     ></path></svg
+      >
+    </div>
+  </div>
+
+  <!-- 终端内容主体 -->
+  <div class="flex p-4 text-[#abb2bf]">
+    <!-- 左侧行号 -->
+    <div class="mr-4 flex flex-col select-none text-right text-[#4b5263]">
+      {lineNumbers.map(num => <span>{num}</span>)}
+    </div>
+
+    <!-- 右侧代码区域 -->
+    <div class="w-full flex-1 overflow-x-auto">
+      <!-- 命令行输入 (修改：移除了原先的注释行) -->
+      <div class="mb-4">
+        <span class="text-[#e06c75] font-bold">$</span>
+        <span class="text-[#e5c07b]">astrofetch</span>
+      </div>
+
+      <!-- Neofetch 布局区域 -->
+      <div class="flex flex-col gap-8 sm:flex-row">
+        <!-- 左侧 Logo (ASCII Art) -->
+        <div
+          class="hidden select-none whitespace-pre text-[#e06c75] font-bold leading-[1.2] sm:block"
+        >
+          {logoLines.join('\n')}
+        </div>
+
+        <!-- 右侧信息列表 -->
+        <div class="flex flex-col justify-center">
+          {
+            infoMap.map(item =>
+              item.isTitle
+? (
+                <div class="mb-1 text-[#e06c75] font-bold">{item.key}</div>
+              )
+: item.isSeparator
+? (
+                <div class="mb-2 text-[#abb2bf] text-opacity-50 tracking-widest">
+                  {item.key}
+                </div>
+              )
+: (
+                <div class="flex gap-3">
+                  <span class="min-w-[140px] text-[#e06c75]">{item.key}:</span>
+                  <span class="text-[#98c379]">{item.val}</span>
+                </div>
+              ),
+            )
+          }
+
+          <!-- 底部色块展示 -->
+          <div class="mt-4 flex gap-2">
+            <div class="h-5 w-5 rounded bg-[#e06c75]"></div>
+            <!-- Red -->
+            <div class="h-5 w-5 rounded bg-[#98c379]"></div>
+            <!-- Green -->
+            <div class="h-5 w-5 rounded bg-[#e5c07b]"></div>
+            <!-- Yellow -->
+            <div class="h-5 w-5 rounded bg-[#61afef]"></div>
+            <!-- Blue -->
+            <div class="h-5 w-5 rounded bg-[#c678dd]"></div>
+            <!-- Purple -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

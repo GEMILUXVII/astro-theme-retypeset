@@ -5,6 +5,11 @@ export type Post = CollectionEntry<'posts'> & {
   remarkPluginFrontmatter: {
     minutes: number
   }
+  data: CollectionEntry<'posts'>['data'] & {
+    published: Date
+    publishedDisplay?: string
+    updated?: Date
+  }
 }
 
 export interface ThemeConfig {
