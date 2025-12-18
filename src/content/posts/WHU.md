@@ -24,6 +24,6 @@ abbrlink: universal-post
 
 这，才是一种更深沉的悲哀。信用的崩塌，向来是从内部开始的。当一面正义的旗帜，它的持旗人自己都不再爱惜它的颜色时，旁人又如何能长久地敬畏它呢？
 
-<div style="text-align: right; font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 0.9em; color: #666; margin-top: 20px;">
+<div style="text-align: right; font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 0.9em; color: #666; margin-top: 20px;">
 2025年8月2日夜 闻武汉经开区法院驳回杨某性骚扰诉讼有感而作
 </div>

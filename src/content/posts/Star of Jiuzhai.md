@@ -13,7 +13,7 @@ abbrlink: star-of-jiuzhai
 
 <hr/>
 
-<div style="text-align: center; font-family: 'LXGW WenKai', 'KaiTi', 'STKaiti', '楷体', serif;">
+<div style="text-align: center; font-family: 'EarlySummer', 'LXGW WenKai', 'KaiTi', 'STKaiti', '楷体', serif;">
   <h2 style="font-weight: bold; margin-bottom: 1.5em;">九寨之星</h2>
   <div style="font-size: 1.2em; line-height: 2.5;">
     <p style="text-align: center;">很久很久的一盏灯<br/>很久很久以前女神点亮的一盏灯<br/>落满岁月尘土的一盏灯</p>
@@ -22,8 +22,8 @@ abbrlink: star-of-jiuzhai
   </div>
 </div>
 
-<p style="text-align: right; font-family: 'LXGW WenKai', 'KaiTi', 'STKaiti', '楷体', serif; font-size: 1.1em; color: #888; margin-top: 2em; margin-bottom: 0;">海子</p>
-<p style="text-align: right; font-family: 'LXGW WenKai', 'KaiTi', 'STKaiti', '楷体', serif; font-size: 1.1em; color: #888; margin-top: 0.2em;">1987.10</p>
+<p style="text-align: right; font-family: 'EarlySummer', 'LXGW WenKai', 'KaiTi', 'STKaiti', '楷体', serif; font-size: 1.1em; color: #888; margin-top: 2em; margin-bottom: 0;">海子</p>
+<p style="text-align: right; font-family: 'EarlySummer', 'LXGW WenKai', 'KaiTi', 'STKaiti', '楷体', serif; font-size: 1.1em; color: #888; margin-top: 0.2em;">1987.10</p>
 
 <hr>
 <div style="font-size: 0.89em; color: #777; line-height: 1.8; font-style: italic;">

@@ -12,7 +12,7 @@ lang: zh
 abbrlink: drawing-sword
 ---
 
-<div style="font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">第四十二章</div>
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">第四十二章</div>
 
 马天生最近又多了一个职务，李云龙专案组副组长，他知道这是个吃力不讨好的差事，他了解李云龙的为人和性格，这是个软硬不吃的人，对这个人他不抱任何希望，用那个时代的时髦术语评价，这是典型的花岗岩脑袋。
 
@@ -143,7 +143,7 @@ abbrlink: drawing-sword
 
 段鹏一拍桌子，下了决心：“干吧！咱们尽量做到不伤人，可要是哪个王八蛋不识相，就算他倒霉啦。现在各人都回家安顿一下，这不是件小事，一定要把家属妥善安置好，事情要是顺利，将来怎么办咱们听１号的，要是办砸了，那这兵咱不当啦，给他来个脚底抹油儿，反正不能让人家抓鸡似的把咱们抓进监狱，老子住不惯那地方……”
 
-<div style="font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">第四十三章</div>
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">第四十三章</div>
 
 那个年代城市的体育场惟一功用就是集会。当然，开得最多的是批斗大会和公审大会。这种集会非常乏味，因为程序几乎是千篇一律，还没有见过哪个城市的此类大会有什么较新的创意，这种现象令许多后世人感到迷惑，难道当年的中国人竞如此缺乏想象力和创造力？数亿的国民，如此广大的国土，没有人为规定的统一模式，怎么从南到北所有的集会都开得这样毫无新意？如果读者不嫌乏味的话，我们不妨沿着当年集会主办者的思路去领略一下集会的氛围和程序。
 
@@ -327,7 +327,7 @@ abbrlink: drawing-sword
 
 如今回首往事，他突然发现自己这一辈子净碰上文化人了，要没这些有学问的人，他还不定傻成什么样呢。他碰上的第一个文化人是他当营长时的营教导员朱玉成。李云龙和他相处了很短一段时间，朱玉成就牺牲了。李云龙清楚地记得他是翻越夹金山时滑下山涧牺牲的。那天天气很晴朗，映入眼帘的色彩也很绚丽，蓝色的天空，白色的雪山，漫山遍野的红军部队，宣传队的女兵们站在没膝深的雪里打着快板鼓动着士气，山上山下红旗翻卷，朱玉成在李云龙身边随口吟出几句古诗，让李云龙至今记忆犹新：
 
-<div style="font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; line-height: 1.8; margin: 20px 0;">
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; line-height: 1.8; margin: 20px 0;">
 　　纷纷暮雪下辕门，<br>
 　　风掣红旗冻不翻。<br>
 　　轮台东门送君去，<br>
@@ -371,7 +371,7 @@ abbrlink: drawing-sword
 
 李云龙轻蔑地看了他一眼，似乎懒得说话，他的食指猛地扣动了扳机……
 
-<div style="font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">尾声</div>
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">尾声</div>
 
 李云龙斜倚在沙发上，双眼睁着，似乎还在沉思，勃朗宁手枪掉在地板上，空气中迷漫着浓浓的火药味儿，一缕鲜血从他左面颊上流下来，像一条红色的小溪汨汨流淌，染红了他肩章上那颗金色的将星……
 
@@ -381,7 +381,7 @@ abbrlink: drawing-sword
 
 两天以后的一个深夜，田雨在狱中割腕自尽。看守人员为此受到严厉的训斥，他们始终没搞清楚，那块小小的保险刀片是怎样躲过严密的搜查带入狱中的。看守人员私下里议论说，这女人是做好赴死的准备来到监狱的，她根本没打算活着出去。看她手腕上的那个伤口，割得像个孩子嘴，啧啧，这女人，真下得去手……看守人员从田雨的遗物中发现一张信纸，这是狱方发给她写交待材料的。这张信纸马上被送到马天生的办公桌上，那上面很潦草地写着南宋词人陈与义的一首《临江仙》：
 
-<div style="font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; line-height: 1.8; margin: 20px 0;">
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; line-height: 1.8; margin: 20px 0;">
 　　忆昔午桥桥上饮，<br>
 　　座中多是豪英。<br>
 　　长沟流月去无声。<br>
@@ -407,7 +407,7 @@ abbrlink: drawing-sword
 
 伟大的、举世无双的贝多芬，他把自己博大精深的思想和对人类的无限爱恋和希望溶进了一曲响彻天宇的颂歌。在这伟大的时刻，全世界的各个角落，都响起了贝多芬《第九交响乐》中那辉煌的第四乐章。那规模宏大、气势磅碍的大合唱《欢乐颂》，把全人类的情感都推向了极致。
 
-<div style="font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; line-height: 1.8; margin: 20px 0;">
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; line-height: 1.8; margin: 20px 0;">
 　　…………<br>
 　　拥抱起来，亿万人民。<br>
 　　让全世界接着吻！
@@ -427,7 +427,7 @@ abbrlink: drawing-sword
 
 电话是有关合资项目的事，主人谈的时间稍稍长了些，当他放下电话匆匆赶到后院时，不由被眼前情景惊呆了，这些穿着笔挺的毛料军服的军官竟齐崭崭地跪在院墙前，抚摸着墙面的点点斑痕，正哭得像一群孩子……
 
-<div style="font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: right; font-size: 0.9em; margin-top: 40px;">
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: right; font-size: 0.9em; margin-top: 40px;">
 1998 年 1 月 — 7 月第一稿<br>
 1999 年 3 月 — 4 月第二稿<br>
 1999 年 5 月 — 6 月第三稿
@@ -435,7 +435,7 @@ abbrlink: drawing-sword
 
 ---
 
-<div style="font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">短评</div>
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">短评</div>
 
 小时家里的那台旧电视，能看的台子不多，《亮剑》便成了反复咀嚼之物。父亲也看，他话不多，但看着李云龙时，我总觉得他看到了自己。
 
@@ -454,6 +454,6 @@ abbrlink: drawing-sword
 <div style="text-align: right;"><em>————杜牧《阿房宫赋》</em></div>
 </div>
 
-<div style="text-align: right; font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 1.0em; color: #666; margin-top: 20px;">
+<div style="text-align: right; font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 1.0em; color: #666; margin-top: 20px;">
 2025年9月22日夜 见B站重映亮剑有感而录
 </div>
