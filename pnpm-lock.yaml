@@ -22,6 +22,9 @@ importers:
       '@astrojs/sitemap':
         specifier: ^3.6.0
         version: 3.6.0
+      '@vercel/analytics':
+        specifier: ^1.6.1
+        version: 1.6.1(vue@3.5.25(typescript@5.9.3))
       '@waline/client':
         specifier: ^3.8.0
         version: 3.8.0(typescript@5.9.3)
@@ -1546,6 +1549,32 @@ packages:
     resolution: {integrity: sha512-GegFDmcWe0V2CR/uN1f+iQuDh2R1vA6EAwSvl1nyL+6ue0/zLyF9yhdVnypIVlJnS6RK/xaLPOP6vWJnqRGhZg==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0 || ^6.0.0-0 || ^7.0.0-0
+
+  '@vercel/analytics@1.6.1':
+    resolution: {integrity: sha512-oH9He/bEM+6oKlv3chWuOOcp8Y6fo6/PSro8hEkgCW3pu9/OiCXiUpRUogDh3Fs3LH2sosDrx8CxeOLBEE+afg==}
+    peerDependencies:
+      '@remix-run/react': ^2
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19 || ^19.0.0-rc
+      svelte: '>= 4'
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@remix-run/react':
+        optional: true
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
 
   '@vitest/eslint-plugin@1.5.2':
     resolution: {integrity: sha512-2t1F2iecXB/b1Ox4U137lhD3chihEE3dRVtu3qMD35tc6UqUjg1VGRJoS1AkFKwpT8zv8OQInzPQO06hrRkeqw==}
@@ -5894,6 +5923,10 @@ snapshots:
       tinyglobby: 0.2.15
       unplugin-utils: 0.3.1
       vite: 6.4.1(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.29.3)(terser@5.39.0)(tsx@4.21.0)(yaml@2.8.2)
+
+  '@vercel/analytics@1.6.1(vue@3.5.25(typescript@5.9.3))':
+    optionalDependencies:
+      vue: 3.5.25(typescript@5.9.3)
 
   '@vitest/eslint-plugin@1.5.2(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
