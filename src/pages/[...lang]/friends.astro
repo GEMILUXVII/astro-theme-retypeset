@@ -24,12 +24,13 @@ const friends = friendsEntry?.data.friends ?? []
   <div class="uno-decorative-line" />
 
   <!-- Page Title -->
-  <h1 class="mb-8 text-2xl font-bold c-primary">友情链接</h1>
+  <h1 class="mb-8 text-2xl c-primary font-bold">友情链接</h1>
 
   <!-- Friends Grid -->
-  {friends.length > 0 ? (
+  {friends.length > 0
+? (
     <div class="grid gap-4 sm:grid-cols-2">
-      {friends.map((friend) => (
+      {friends.map(friend => (
         <FriendCard
           name={friend.name}
           url={friend.url}
@@ -38,18 +39,26 @@ const friends = friendsEntry?.data.friends ?? []
         />
       ))}
     </div>
-  ) : (
+  )
+: (
     <p class="c-secondary/70">暂无友链</p>
   )}
 
   <!-- Apply for Link -->
   <div class="mt-12">
     <div class="uno-decorative-line" />
-    <div class="heti mt-4 c-secondary/80">
-      <p>欢迎交换友链！请通过以下方式联系我：</p>
-      <ul class="mt-2 list-disc pl-5">
-        <li>在文章下方留言</li>
-        <li>发送邮件至博主邮箱</li>
+    <h2 class="mb-4 mt-4 text-xl c-primary font-bold">申请友链</h2>
+    <div class="heti c-secondary/80">
+      <p>欢迎交换友链！请按以下步骤操作：</p>
+      <ul class="mt-3 space-y-2">
+        <li class="flex items-start gap-2">
+          <span class="c-primary">✓</span>
+          <span>发送 <a href="mailto:aspchang@foxmail.com" class="highlight-hover c-primary">邮件</a> 或提交 <a href="https://github.com/GEMILUXVII/astro-theme-retypeset/issues" target="_blank" rel="noopener" class="highlight-hover c-primary">GitHub Issue</a></span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="c-primary">✓</span>
+          <span>请提供：网站名称、URL、头像、简介</span>
+        </li>
       </ul>
     </div>
   </div>
