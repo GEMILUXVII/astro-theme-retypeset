@@ -1,7 +1,6 @@
 ---
 title: 宁芝Mini84 V6pro固件备忘：功能与组合键详解
 published: 2025-03-17
-updated: 2025-12-18
 tags:
   - tech
   - niz

@@ -1,7 +1,6 @@
 ---
 title: 单一 IP 多 TeamSpeak 服务：使用 TSDNS 和 Docker 实现各端口的独立域名访问
 published: 2025-07-07
-updated: 2025-07-07
 tags:
   - tech
   - docker

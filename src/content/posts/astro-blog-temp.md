@@ -1,7 +1,6 @@
 ---
 title: Astro博客搭建指南
 published: 2025-02-08
-updated: 2025-03-26
 tags:
   - tech
   - astro

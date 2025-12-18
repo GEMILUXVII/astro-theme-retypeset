@@ -1,8 +1,15 @@
 ---
-title: '写在 ChatGPT 3.5 发布三周年：被折叠的时间'
-published: '2025-11-30'
+title: 写在 ChatGPT 3.5 发布三周年：被折叠的时间
+published: 2025-11-30
+tags:
+  - tech
+  - ai
+  - chatgpt
+  - singularity
 draft: false
-tags: ['tech', 'ai', 'chatgpt', 'singularity']
+toc: true
+lang: zh
+abbrlink: chatgpt-3rd-anniversary
 ---
 
 ### 引言：时间感的丧失

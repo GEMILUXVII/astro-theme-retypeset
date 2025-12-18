@@ -1,7 +1,6 @@
 ---
 title: EchoLife HS8346R5光猫获取超级密码
 published: 2025-10-27
-updated: 2025-12-18
 tags:
   - tech
 draft: false

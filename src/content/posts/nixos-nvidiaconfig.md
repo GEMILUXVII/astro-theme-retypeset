@@ -1,8 +1,13 @@
 ---
-title: 'NixOS 下 Nvidia 显卡驱动配置'
-published: '2025-11-10'
+title: NixOS 下 Nvidia 显卡驱动配置
+published: 2025-11-10
+tags:
+  - tech
+  - NixOS
 draft: false
-tags: ['tech', 'NixOS']
+toc: true
+lang: zh
+abbrlink: nixos-nvidia-guide
 ---
 
 ## 前言

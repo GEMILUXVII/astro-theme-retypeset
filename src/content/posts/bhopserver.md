@@ -1,7 +1,6 @@
 ---
 title: CS:S BHop 服务器部署
 published: 2025-06-14
-updated: 2025-12-18
 tags:
   - tech
   - server

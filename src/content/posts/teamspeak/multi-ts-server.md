@@ -1,7 +1,7 @@
 ---
 title: 基于 Docker 在服务器上部署多个 TeamSpeak 服务器
 published: 2025-07-05
-updated: 2025-07-05
+description: 服务器单单部署一个TeamSpeak服务器实在是太浪费性能了，我们可以使用docker来多开TeamSpeak Server
 tags:
   - tech
   - docker

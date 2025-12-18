@@ -1,7 +1,6 @@
 ---
 title: 在 Debian12 服务器上部署 Astrbot 与 Overflow (NapCat 双后端)
 published: 2025-09-15
-updated: 2025-09-15
 tags:
   - tech
   - server

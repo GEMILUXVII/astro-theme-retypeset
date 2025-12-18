@@ -1,7 +1,6 @@
 ---
 title: 为多个 Docker 化 TeamSpeak 服务器部署 teamspeak-management-tools
 published: 2025-07-13
-updated: 2025-07-13
 tags:
   - tech
   - docker

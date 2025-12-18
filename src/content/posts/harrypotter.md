@@ -1,7 +1,6 @@
 ---
 title: 被降维的魔法——哈利波特电影的毁灭性改编
 published: 2025-06-19
-updated: 2025-12-18
 tags:
   - 文学
   - harry-potter

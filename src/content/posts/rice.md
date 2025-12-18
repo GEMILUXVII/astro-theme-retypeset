@@ -1,7 +1,6 @@
 ---
 title: 恶之米，人性之蛊
 published: 2025-04-19
-updated: 2025-12-18
 tags:
   - 文学
   - 苏童

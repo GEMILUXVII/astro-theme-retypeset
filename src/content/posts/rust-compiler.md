@@ -1,7 +1,7 @@
 ---
 title: 为何 Rust 不在 编译器性能 上投入更多？
 published: 2025-06-11
-updated: 2025-12-18
+description: 也许关于 Rust 最常被重复的抱怨就是其缓慢的反馈循环和漫长的编译时间。
 tags:
   - tech
   - rust

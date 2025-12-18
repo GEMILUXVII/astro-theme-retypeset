@@ -1,7 +1,6 @@
 ---
 title: 利用 Cloudflare Tunnel 搭建一个浏览器端的ssh页面
 published: 2025-11-27
-updated: 2025-12-18
 tags:
   - tech
   - server
