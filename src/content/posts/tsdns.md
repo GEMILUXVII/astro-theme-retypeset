@@ -64,9 +64,8 @@ abbrlink: tsdns
     *.example.com=123.123.123.123:9987
     ```
 
-<NoticeBox type="warning" title="注意">
-此文件中的 IP 地址必须为服务器的公网 IP，以确保外部客户端可以访问 键值对格式为 `域名=IP:端口`，不支持额外的空格或注释
-</NoticeBox>
+> [!WARNING]
+> 此文件中的 IP 地址必须为服务器的公网 IP，以确保外部客户端可以访问。键值对格式为 `域名=IP:端口`，不支持额外的空格或注释。
 
 #### 3.2 Docker 容器化部署
 
@@ -83,17 +82,15 @@ docker run -d \
   /opt/ts3server/tsdns/tsdnsserver
 ```
 
-<CodeExplanation>
-**`--restart unless-stopped`**: 确保 Docker 服务重启或容器意外退出时，服务能自动恢复，保障高可用性
-
-**`-p 41144:41144/tcp`**: 映射 TSDNS 服务的标准 TCP 端口
-
-**`-v ...:ro`**: 以只读模式（`ro`）挂载主机上的配置文件 这是安全最佳实践，可防止容器意外修改主机文件
-
-**`-w /data`**: 将容器的工作目录（Working Directory）设置为 `/data` 此举旨在匹配配置文件的挂载点，以满足 `tsdnsserver` 程序在当前工作目录查找 `tsdns_settings.ini` 的隐性依赖
-
-**`/opt/ts3server/tsdns/tsdnsserver`**: 使用绝对路径执行程序，确保不受容器 `PATH` 环境变量的影响，是保证命令执行成功率的稳健做法
-</CodeExplanation>
+> **`--restart unless-stopped`**: 确保 Docker 服务重启或容器意外退出时，服务能自动恢复，保障高可用性。
+>
+> **`-p 41144:41144/tcp`**: 映射 TSDNS 服务的标准 TCP 端口。
+>
+> **`-v ...:ro`**: 以只读模式（`ro`）挂载主机上的配置文件。这是安全最佳实践，可防止容器意外修改主机文件。
+>
+> **`-w /data`**: 将容器的工作目录（Working Directory）设置为 `/data`。此举旨在匹配配置文件的挂载点，以满足 `tsdnsserver` 程序在当前工作目录查找 `tsdns_settings.ini` 的隐性依赖。
+>
+> **`/opt/ts3server/tsdns/tsdnsserver`**: 使用绝对路径执行程序，确保不受容器 `PATH` 环境变量的影响，是保证命令执行成功率的稳健做法。
 
 #### 3.3 服务状态验证
 
