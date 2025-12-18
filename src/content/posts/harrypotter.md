@@ -40,6 +40,6 @@ abbrlink: harrypotter
 
 真的，要看原著。
 
-<div style="text-align: right; font-family: '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 1.0em; color: #666; margin-top: 20px;">
+<div style="text-align: right; font-family: 'LXGW WenKai TC', '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 1.0em; color: #666; margin-top: 20px;">
 2025年6月19日晨 偶见视频有感而书
 </div>
