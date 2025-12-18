@@ -1,6 +1,7 @@
 ---
 import type { Language } from '@/i18n/config'
 import Analytics from '@vercel/analytics/astro'
+import SpeedInsights from '@vercel/speed-insights/astro'
 import Button from '@/components/Button.astro'
 import Footer from '@/components/Footer.astro'
 import Header from '@/components/Header.astro'
@@ -64,5 +65,6 @@ const MarginBottom = isPost && themeConfig.comment.enabled
     <MediaEmbed />
     <ImageZoom />
     <Analytics />
+    <SpeedInsights />
   </body>
 </html>
