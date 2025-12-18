@@ -125,23 +125,23 @@ export const themeConfig: ThemeConfig = {
     verification: {
       // google search console
       // https://search.google.com/search-console
-      google: 'AUCrz5F1e5qbnmKKDXl2Sf8u6y0kOpEO1wLs6HMMmlM',
+      google: '',
       // bing webmaster tools
       // https://www.bing.com/webmasters
-      bing: '64708CD514011A7965C84DDE1D169F87',
+      bing: '',
       // yandex webmaster
       // https://webmaster.yandex.com
       yandex: '',
       // baidu search
       // https://ziyuan.baidu.com
-      baidu: '',
+      baidu: 'codeva-8neEJOHGG6',
     },
     // google analytics
     // https://analytics.google.com
     googleAnalyticsID: '',
     // umami analytics
     // https://cloud.umami.is
-    umamiAnalyticsID: 'dab0e4b9-9cbf-43c3-af60-b09d3b545c38',
+    umamiAnalyticsID: '50796f2c-782c-4b56-b66f-49bc6e4b7c00',
     // follow verification
     // https://follow.is/
     follow: {
