@@ -15,7 +15,7 @@ const buildTime = new Date().toLocaleString('zh-CN', {
 
 // 定义 ASCII Logo
 const logoLines = [
-  '              ----------               ',
+  '               ----------               ',
   '              %%%%%%%%%%%%              ',
   '             %%%%%%%%%%%%%%             ',
   '            %%%%%%%%%%%%%%%%            ',
@@ -54,7 +54,8 @@ const lineNumbers = Array.from({ length: 21 }, (_, i) => i + 1)
 ---
 
 <div
-  class="mx-auto my-8 max-w-3xl w-full overflow-hidden border border-[#333] rounded-lg bg-[#1e1e1e] text-sm leading-relaxed font-mono shadow-2xl"
+  class="mx-auto my-8 max-w-3xl w-full overflow-hidden border-none text-sm leading-relaxed font-mono shadow-none"
+  style="background: transparent; box-shadow: none;"
 >
   <!-- 顶部标题栏 -->
   <div class="relative flex items-center bg-[#2d2d2d] px-4 py-2">
@@ -87,14 +88,14 @@ const lineNumbers = Array.from({ length: 21 }, (_, i) => i + 1)
   </div>
 
   <!-- 终端内容主体 -->
-  <div class="flex p-4 text-[#abb2bf]">
+  <div class="flex overflow-hidden bg-transparent p-4 text-[#abb2bf]">
     <!-- 左侧行号 -->
     <div class="mr-4 flex flex-col select-none text-right text-[#4b5263]">
       {lineNumbers.map(num => <span>{num}</span>)}
     </div>
 
     <!-- 右侧代码区域 -->
-    <div class="w-full flex-1 overflow-x-auto">
+      <div class="w-full flex-1 overflow-hidden">
       <!-- 命令行输入 (修改：移除了原先的注释行) -->
       <div class="mb-4">
         <span class="text-[#e06c75] font-bold">$</span>
@@ -104,11 +105,13 @@ const lineNumbers = Array.from({ length: 21 }, (_, i) => i + 1)
       <!-- Neofetch 布局区域 -->
       <div class="flex flex-col gap-8 sm:flex-row">
         <!-- 左侧 Logo (ASCII Art) -->
-        <div
-          class="hidden select-none whitespace-pre text-[#e06c75] font-bold leading-[1.2] sm:block"
+        <pre
+          class="no-heti hidden max-w-full select-none overflow-hidden whitespace-pre text-[#e06c75] font-bold leading-[1.2] sm:block"
+          style="font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; background: transparent !important; border: none !important; box-shadow: none !important; padding: 0 !important; overflow: visible !important;"
+          aria-hidden="true"
         >
-          {logoLines.join('\n')}
-        </div>
+{logoLines.join('\n')}
+        </pre>
 
         <!-- 右侧信息列表 -->
         <div class="flex flex-col justify-center">
