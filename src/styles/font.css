@@ -1,5 +1,5 @@
-/* Google Fonts - LXGW WenKai TC */
-@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+/* LXGW WenKai (霞鹜文楷 - 简体中文) via CDN */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css');
 
 /* Snell Roundhand Static Font */
 @font-face {

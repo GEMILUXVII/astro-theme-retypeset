@@ -42,6 +42,6 @@ abbrlink: rice
 
 _注：苏童凭借其作品《黄雀记》荣获第九届茅盾文学奖，而非《米》_
 
-<div style="text-align: right; font-family: 'LXGW WenKai TC', '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 1.0em; color: #666; margin-top: 20px;">
+<div style="text-align: right; font-family: 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 1.0em; color: #666; margin-top: 20px;">
 2025年4月19日夜 与友豪杰谈及此书有感而记
 </div>
