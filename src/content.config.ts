@@ -47,4 +47,17 @@ const about = defineCollection({
   }),
 })
 
-export const collections = { posts, about }
+const friends = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/friends' }),
+  schema: z.object({
+    lang: z.enum(['', ...allLocales]).optional().default(''),
+    friends: z.array(z.object({
+      name: z.string(),
+      url: z.string(),
+      avatar: z.string().optional(),
+      description: z.string().optional(),
+    })).optional().default([]),
+  }),
+})
+
+export const collections = { posts, about, friends }

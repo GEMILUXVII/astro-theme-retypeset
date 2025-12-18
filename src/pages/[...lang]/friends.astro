@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content'
+import FriendCard from '@/components/FriendCard.astro'
+import { allLocales } from '@/config'
+import { getLangFromLocale, getLangRouteParam } from '@/i18n/lang'
+import Layout from '@/layouts/Layout.astro'
+
+export async function getStaticPaths() {
+  return allLocales.map(lang => ({
+    params: { lang: getLangRouteParam(lang) },
+  }))
+}
+
+const currentLang = getLangFromLocale(Astro.currentLocale)
+// Get friends data with different language
+const allFriendsEntries = await getCollection('friends')
+const friendsEntry = allFriendsEntries.find(entry => entry.data.lang === currentLang)
+  ?? allFriendsEntries.find(entry => entry.data.lang === '')
+const friends = friendsEntry?.data.friends ?? []
+---
+
+<Layout>
+  <!-- Decorative Line -->
+  <div class="uno-decorative-line" />
+
+  <!-- Page Title -->
+  <h1 class="mb-8 text-2xl font-bold c-primary">友情链接</h1>
+
+  <!-- Friends Grid -->
+  {friends.length > 0 ? (
+    <div class="grid gap-4 sm:grid-cols-2">
+      {friends.map((friend) => (
+        <FriendCard
+          name={friend.name}
+          url={friend.url}
+          avatar={friend.avatar}
+          description={friend.description}
+        />
+      ))}
+    </div>
+  ) : (
+    <p class="c-secondary/70">暂无友链</p>
+  )}
+
+  <!-- Apply for Link -->
+  <div class="mt-12">
+    <div class="uno-decorative-line" />
+    <div class="heti mt-4 c-secondary/80">
+      <p>欢迎交换友链！请通过以下方式联系我：</p>
+      <ul class="mt-2 list-disc pl-5">
+        <li>在文章下方留言</li>
+        <li>发送邮件至博主邮箱</li>
+      </ul>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,50 @@
+---
+interface Props {
+  name: string
+  url: string
+  avatar?: string
+  description?: string
+}
+
+const { name, url, avatar, description } = Astro.props
+const defaultAvatar = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(name)}`
+---
+
+<a
+  href={url}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="friend-card group block uno-round-border bg-secondary/5 p-4 transition-all duration-200 ease-out hover:(bg-secondary/10 shadow-sm)"
+>
+  <div class="flex items-center gap-3">
+    <!-- Avatar -->
+    <div class="shrink-0">
+      <img
+        src={avatar || defaultAvatar}
+        alt={`${name} 的头像`}
+        class="aspect-square w-12 rounded-full object-cover"
+        loading="lazy"
+      />
+    </div>
+    <!-- Info -->
+    <div class="min-w-0 flex-1">
+      <h3 class="truncate text-base font-medium c-primary transition-colors group-hover:c-primary">
+        {name}
+      </h3>
+      {description && (
+        <p class="mt-1 truncate text-sm c-secondary/70">
+          {description}
+        </p>
+      )}
+    </div>
+  </div>
+</a>
+
+<style>
+  .friend-card {
+    border: 1px solid oklch(var(--un-preset-theme-colors-secondary) / 0.15);
+  }
+  .friend-card:hover {
+    border-color: oklch(var(--un-preset-theme-colors-primary) / 0.2);
+  }
+</style>

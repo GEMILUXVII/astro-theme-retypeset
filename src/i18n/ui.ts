@@ -7,6 +7,7 @@ interface Translation {
   posts: string
   tags: string
   about: string
+  friends: string
   toc: string
 }
 
@@ -18,6 +19,7 @@ export const ui: Record<Language, Translation> = {
     posts: 'Beiträge',
     tags: 'Schlagwörter',
     about: 'Über',
+    friends: 'Freunde',
     toc: 'Inhaltsverzeichnis',
   },
   'en': {
@@ -27,6 +29,7 @@ export const ui: Record<Language, Translation> = {
     posts: 'Posts',
     tags: 'Tags',
     about: 'About',
+    friends: 'Friends',
     toc: 'Table of Contents',
   },
   'es': {
@@ -36,6 +39,7 @@ export const ui: Record<Language, Translation> = {
     posts: 'Artículos',
     tags: 'Etiquetas',
     about: 'Sobre',
+    friends: 'Amigos',
     toc: 'Índice',
   },
   'fr': {
@@ -45,6 +49,7 @@ export const ui: Record<Language, Translation> = {
     posts: 'Articles',
     tags: 'Étiquettes',
     about: 'À propos',
+    friends: 'Amis',
     toc: 'Table des matières',
   },
   'ja': {
@@ -54,6 +59,7 @@ export const ui: Record<Language, Translation> = {
     posts: '記事',
     tags: 'タグ',
     about: '概要',
+    friends: 'フレンド',
     toc: '目次',
   },
   'ko': {
@@ -63,6 +69,7 @@ export const ui: Record<Language, Translation> = {
     posts: '게시물',
     tags: '태그',
     about: '소개',
+    friends: '친구',
     toc: '목차',
   },
   'pl': {
@@ -72,6 +79,7 @@ export const ui: Record<Language, Translation> = {
     posts: 'Artykuły',
     tags: 'Tagi',
     about: 'O stronie',
+    friends: 'Przyjaciele',
     toc: 'Spis treści',
   },
   'pt': {
@@ -81,6 +89,7 @@ export const ui: Record<Language, Translation> = {
     posts: 'Artigos',
     tags: 'Tags',
     about: 'Sobre',
+    friends: 'Amigos',
     toc: 'Sumário',
   },
   'ru': {
@@ -90,6 +99,7 @@ export const ui: Record<Language, Translation> = {
     posts: 'Посты',
     tags: 'Теги',
     about: 'О себе',
+    friends: 'Друзья',
     toc: 'Оглавление',
   },
   'zh': {
@@ -99,6 +109,7 @@ export const ui: Record<Language, Translation> = {
     posts: '文章',
     tags: '标签',
     about: '关于',
+    friends: '友链',
     toc: '目录',
   },
   'zh-tw': {
@@ -108,6 +119,7 @@ export const ui: Record<Language, Translation> = {
     posts: '文章',
     tags: '標籤',
     about: '關於',
+    friends: '友鏈',
     toc: '目錄',
   },
 }
