@@ -10,7 +10,7 @@ tags:
 draft: false
 toc: true
 lang: zh
-abbrlink: A-Fools-Life
+abbrlink: a-fools-life
 ---
 
 <br/>

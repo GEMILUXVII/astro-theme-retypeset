@@ -1,19 +1,12 @@
 ---
-# 必填
 title: 为多个 Docker 化 TeamSpeak 服务器部署 teamspeak-management-tools
 published: 2025-07-13
-
-# 可选
-description:
 updated: 2025-07-13
 tags:
   - tech
   - docker
   - teamspeak
-
-# 进阶，可选
 draft: false
-pin:
 toc: true
 lang: zh
 abbrlink: teamspeak-management-tools

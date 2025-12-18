@@ -1,8 +1,15 @@
 ---
-title: '为何 Rust 不在 编译器性能 上投入更多？'
-published: '2025-06-11'
+title: 为何 Rust 不在 编译器性能 上投入更多？
+published: 2025-06-11
+updated: 2025-12-18
+tags:
+  - tech
+  - rust
+  - compiler
 draft: false
-tags: ['tech', 'rust', 'compiler']
+toc: true
+lang: zh
+abbrlink: rust-compiler
 ---
 
 本文译自 [Why doesn't Rust care more about compiler performance?](https://kobzol.github.io/rust/rustc/2025/06/09/why-doesnt-rust-care-more-about-compiler-performance.html)，作者 [Kobzol](https://kobzol.github.io/)，译者 [@Baram X 3](https://github.com/GEMILUXVII)，原文发表于 2025 年 6 月 9 日。

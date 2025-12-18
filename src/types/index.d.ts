@@ -7,7 +7,7 @@ export type Post = CollectionEntry<'posts'> & {
   }
   data: CollectionEntry<'posts'>['data'] & {
     published: Date
-    publishedDisplay?: string
+    publishedDisplay: string
     updated?: Date
   }
 }

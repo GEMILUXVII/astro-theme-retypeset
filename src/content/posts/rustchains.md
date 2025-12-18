@@ -1,8 +1,15 @@
 ---
-title: 'Windows 上的 Rust：拥抱 GNU 工具链——MSVC 之外的选择'
-published: '2025-05-15'
+title: Windows 上的 Rust：拥抱 GNU 工具链——MSVC 之外的选择
+published: 2025-05-15
+updated: 2025-12-18
+tags:
+  - tech
+  - rust
+  - gnu
 draft: false
-tags: ['tech', 'rust', 'gnu']
+toc: true
+lang: zh
+abbrlink: rustchains
 ---
 
 ## 前言

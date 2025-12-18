@@ -16,6 +16,8 @@ const { date, updatedDate, displayDate, minutes } = Astro.props
 const { dateFormat: format } = themeConfig.global
 const isPost = isPostPage(Astro.url.pathname)
 const timeSpacingClass = isPost ? 'ml-1.75' : 'ml-1.5'
+const publishedText = displayDate || formatDate(date, format)
+const datetimeAttr = date.toISOString().split('T')[0]
 
 function formatDate(date: Date, format: DateFormat) {
   if (format === 'YYYY-MM-DD') {
@@ -58,10 +60,6 @@ function formatDate(date: Date, format: DateFormat) {
       return date.toISOString().split('T')[0]
   }
 }
----
-
-const publishedText = displayDate || formatDate(date, format)
-const datetimeAttr = date.toISOString().split('T')[0]
 ---
 
 <!-- published date -->

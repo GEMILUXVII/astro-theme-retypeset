@@ -8,10 +8,11 @@ const posts = defineCollection({
   schema: z.object({
     // required
     title: z.string(),
-    published: z.preprocess(
-      val => parsePublishedInput(val).date,
+    published: z.union([
+      z.string(),
+      z.number(),
       z.date(),
-    ),
+    ]),
     // optional
     description: z.string().optional().default(''),
     updated: z.preprocess(
@@ -28,6 +29,14 @@ const posts = defineCollection({
       abbrlink => !abbrlink || /^[a-z0-9\-]*$/.test(abbrlink),
       { message: 'Abbrlink can only contain lowercase letters, numbers and hyphens' },
     ),
+  }).transform((data) => {
+    const { date, display } = parsePublishedInput(data.published)
+
+    return {
+      ...data,
+      published: date,
+      publishedDisplay: display,
+    }
   }),
 })
 

@@ -1,9 +1,14 @@
 ---
-title: '藥'
-published: '1919-04-25'
+title: 藥
+published: 1919-04-25
+tags:
+  - 文学
+  - 小说
+  - 鲁迅
 draft: false
-tags: ['文学', '小说', '鲁迅']
-series: '文选'
+toc: true
+lang: zh
+abbrlink: medicine
 ---
 
 _收錄於《吶喊》和《新青年·第六卷·第五號》_

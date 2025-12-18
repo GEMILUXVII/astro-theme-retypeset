@@ -1,9 +1,15 @@
 ---
-title: '《亮剑》节选与个人短评'
-published: '2025-09-22'
+title: 《亮剑》节选与个人短评
+published: 2025-09-22
+updated: 2025-12-18
+tags:
+  - 文学
+  - 小说
+  - 都梁
 draft: false
-tags: ['文学', '小说', '都梁']
-series: '文选'
+toc: true
+lang: zh
+abbrlink: drawing-sword
 ---
 
 <div style="font-family: '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0;">第四十二章</div>

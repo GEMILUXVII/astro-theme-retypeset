@@ -1,8 +1,14 @@
 ---
-title: 'Astro博客搭建指南'
-published: '2025-02-08'
+title: Astro博客搭建指南
+published: 2025-02-08
+updated: 2025-03-26
+tags:
+  - tech
+  - astro
 draft: false
-tags: ['tech', 'astro']
+toc: true
+lang: zh
+abbrlink: astro-blog-guide
 ---
 
 ## 前言：为什么选择 Astro？
@@ -215,7 +221,9 @@ git push -u origin main
 
 Vercel 支持添加自定义域名进行重定向
 
-域名购买：[_腾讯云域名_](https://buy.cloud.tencent.com/domain) ​[_阿里云万网_](https://wanwang.aliyun.com/domain/tld#.com)
+域名购买：[_腾讯云域名_](https://buy.cloud.tencent.com/domain)
+
+​[_阿里云万网_](https://wanwang.aliyun.com/domain/tld#.com)
 
 - 选择 Vercel 中博客项目打开 Settings
 - 选择 Domain 并进行 Add

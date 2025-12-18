@@ -1,9 +1,14 @@
 ---
-title: '梦十夜'
-published: '1908-07-25'
+title: 梦十夜
+published: 1908-07-25
+tags:
+  - 文学
+  - 小说
+  - 夏目漱石
 draft: false
-tags: ['文学', '小说', '夏目漱石']
-series: '文选'
+toc: true
+lang: zh
+abbrlink: ten-nights-of-dreams
 ---
 
 _1908 年（明治四十一年）7 月 25 日至 8 月 5 日载于《朝日新闻》_

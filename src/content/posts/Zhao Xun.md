@@ -1,10 +1,14 @@
 ---
-title: '找寻'
+title: 找寻
 published: 1970-02
+description: 我只找到，一滩败草，一袖寒风……
+tags:
+  - 诗歌
+  - 顾城
 draft: false
-tags: ['诗歌', '顾城']
-description: '我只找到，一滩败草，一袖寒风……'
-series: '诗选'
+toc: true
+lang: zh
+abbrlink: zhao-xun
 ---
 
 <hr/>

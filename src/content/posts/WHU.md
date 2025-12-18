@@ -1,9 +1,13 @@
 ---
-title: '女权”是如何透支社会信任的？'
-published: '2025-08-02'
+title: 女权”是如何透支社会信任的？
+published: 2025-08-02
+tags:
+  - 社会
+  - 女权
 draft: false
-tags: ['社会', '女权']
-series: '主观评价'
+toc: true
+lang: zh
+abbrlink: universal-post
 ---
 
 武大那件事，纷纷扬扬，总算有了一个法律上的分晓。但这分晓，恐怕也只是一个逗号，而非句号。

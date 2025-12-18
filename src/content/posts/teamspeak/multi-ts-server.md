@@ -1,19 +1,12 @@
 ---
-# 必填
 title: 基于 Docker 在服务器上部署多个 TeamSpeak 服务器
 published: 2025-07-05
-
-# 可选
-description:
 updated: 2025-07-05
 tags:
   - tech
   - docker
   - teamspeak
-
-# 进阶，可选
 draft: false
-pin:
 toc: true
 lang: zh
 abbrlink: teamspeak-docker-deploy

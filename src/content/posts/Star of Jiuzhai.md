@@ -1,10 +1,14 @@
 ---
-title: '九寨之星'
+title: 九寨之星
 published: 1987-10
+description: 柔似湖水 亮如光明
+tags:
+  - 诗歌
+  - 海子
 draft: false
-tags: ['诗歌', '海子']
-description: '柔似湖水　亮如光明'
-series: '诗选'
+toc: true
+lang: zh
+abbrlink: star-of-jiuzhai
 ---
 
 <hr/>

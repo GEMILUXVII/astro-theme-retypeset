@@ -1,9 +1,15 @@
 ---
-title: '竹林中'
+title: 竹林中
 published: 1922-05
+updated: 2025-12-18
+tags:
+  - 文学
+  - 小说
+  - 芥川龙之介
 draft: false
-tags: ['文学', '小说', '芥川龙之介']
-series: '文选'
+toc: true
+lang: zh
+abbrlink: in-a-grove
 ---
 
 <h3>受检察官查问的樵夫供词</h3>
