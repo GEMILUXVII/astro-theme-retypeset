@@ -447,11 +447,9 @@ abbrlink: drawing-sword
 
 英雄的血，不该白流，但有时，它就是白流了。
 
-<div class="fancy-quote">
-<em>
+<div style="font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; text-align: center; line-height: 1.8; margin: 20px 0; font-style: italic;">
 秦人不暇自哀，而后人哀之。后人哀之而不鉴之，亦使后人而复哀后人也。
-</em>
-<div style="text-align: right;"><em>————杜牧《阿房宫赋》</em></div>
+<div style="text-align: right; margin-top: 10px;">————杜牧《阿房宫赋》</div>
 </div>
 
 <div style="text-align: right; font-family: 'EarlySummer', 'LXGW WenKai', '楷体', KaiTi, '楷体_GB2312', STKaiti; font-size: 1.0em; color: #666; margin-top: 20px;">
