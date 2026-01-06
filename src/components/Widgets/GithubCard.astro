@@ -29,7 +29,7 @@ async function fetchRepoData(repo: string): Promise<GithubRepoData | null> {
 
   // Fetch from API if not cached
   try {
-    const response = await fetch(`https://api.github.com/repos/${repo}`)
+    const response = await fetch(`/api/github/${repo}`)
     if (!response.ok) {
       console.warn(`[GithubCard] Failed to fetch ${repo}: ${response.status} ${response.statusText}`)
       return null

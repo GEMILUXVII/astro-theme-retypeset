@@ -1,6 +1,7 @@
 import mdx from '@astrojs/mdx'
 import partytown from '@astrojs/partytown'
 import sitemap from '@astrojs/sitemap'
+import vercel from '@astrojs/vercel'
 import Compress from 'astro-compress'
 import { defineConfig } from 'astro/config'
 import rehypeKatex from 'rehype-katex'
@@ -28,6 +29,7 @@ const imageConfig = imageHostURL
 export default defineConfig({
   site,
   base,
+  adapter: vercel(),
   trailingSlash: 'always', // Not recommended to change
   prefetch: {
     prefetchAll: true,
